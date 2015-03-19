@@ -13,6 +13,7 @@
 		2FFE371D1ABA01980043987A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FFE371C1ABA01980043987A /* Images.xcassets */; };
 		2FFE37201ABA01980043987A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FFE371E1ABA01980043987A /* LaunchScreen.xib */; };
 		2FFE372C1ABA01980043987A /* roshamboTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFE372B1ABA01980043987A /* roshamboTests.swift */; };
+		2FFE37381ABA044C0043987A /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FFE37371ABA044C0043987A /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		2FFE37251ABA01980043987A /* roshamboTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = roshamboTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FFE372A1ABA01980043987A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2FFE372B1ABA01980043987A /* roshamboTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = roshamboTests.swift; sourceTree = "<group>"; };
+		2FFE37371ABA044C0043987A /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResultViewController.swift; path = ../ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		2FFE37121ABA01980043987A /* roshambo */ = {
 			isa = PBXGroup;
 			children = (
+				2FFE37371ABA044C0043987A /* ResultViewController.swift */,
 				2FFE37151ABA01980043987A /* AppDelegate.swift */,
 				2FFE37171ABA01980043987A /* ViewController.swift */,
 				2FFE37191ABA01980043987A /* Main.storyboard */,
@@ -214,6 +217,7 @@
 			files = (
 				2FFE37181ABA01980043987A /* ViewController.swift in Sources */,
 				2FFE37161ABA01980043987A /* AppDelegate.swift in Sources */,
+				2FFE37381ABA044C0043987A /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
